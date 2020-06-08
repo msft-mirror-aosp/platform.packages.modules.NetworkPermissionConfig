@@ -19,8 +19,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.networkstack.permissionconfig"
     android:sharedUserId="android.uid.networkstack"
-    android:versionCode="300800800"
-    android:versionName="r_aml_300800800"
+    android:versionCode="300801000"
+    android:versionName="r_aml_300801000"
   >
     <!--
     This package only exists to define the below permissions, and enforce that they are only
