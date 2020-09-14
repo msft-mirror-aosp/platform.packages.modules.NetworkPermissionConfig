@@ -20,6 +20,8 @@ java_defaults {
     // a classes.dex.
     srcs: ["src/**/*.java"],
     platform_apis: true,
+    target_sdk_version: "30",
+    min_sdk_version: "29",
     privileged: true,
     manifest: "AndroidManifest.xml",
 }
@@ -29,8 +31,6 @@ android_app {
     name: "NetworkPermissionConfig",
     defaults: ["NetworkPermissionConfigDefaults"],
     certificate: "networkstack",
-    target_sdk_version: "30",
-    min_sdk_version: "29",
 }
 
 // Alternative stub APK signed with platform certificate. To use with InProcessNetworkStack.
