@@ -14,6 +14,10 @@
 // limitations under the License.
 //
 
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
 java_defaults {
     name: "NetworkPermissionConfigDefaults",
     // TODO: mark app as hasCode=false in manifest once soong stops complaining about apps without
