@@ -17,10 +17,11 @@
  */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    coreApp="true"
     package="com.android.networkstack.permissionconfig"
     android:sharedUserId="android.uid.networkstack"
-    android:versionCode="301800000"
-    android:versionName="aml_pco_301800000"
+    android:versionCode="311010000"
+    android:versionName="aml_pco_311010000"
   >
     <!--
     This package only exists to define the below permissions, and enforce that they are only
