@@ -20,9 +20,6 @@ package {
 
 java_defaults {
     name: "NetworkPermissionConfigDefaults",
-    // TODO: mark app as hasCode=false in manifest once soong stops complaining about apps without
-    // a classes.dex.
-    srcs: ["src/**/*.java"],
     platform_apis: true,
     target_sdk_version: "30",
     min_sdk_version: "29",
