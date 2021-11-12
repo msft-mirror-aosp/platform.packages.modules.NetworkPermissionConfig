@@ -17,6 +17,7 @@
  */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    coreApp="true"
     package="com.android.networkstack.permissionconfig"
     android:sharedUserId="android.uid.networkstack"
     android:versionCode="300000000"
@@ -39,5 +40,6 @@
     <!-- The application must declare usesClearTraffic because it uses the same UID as the
          NetworkStack module, which does cleartext traffic (b/161860610). -->
     <application android:name="com.android.server.NetworkPermissionConfig"
-                 android:usesCleartextTraffic="true"/>
+                 android:usesCleartextTraffic="true"
+                 android:hasCode="false"/>
 </manifest>
