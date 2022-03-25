@@ -20,8 +20,8 @@
     coreApp="true"
     package="com.android.networkstack.permissionconfig"
     android:sharedUserId="android.uid.networkstack"
-    android:versionCode="330210000"
-    android:versionName="aml_go_net_330210000"
+    android:versionCode="330211000"
+    android:versionName="aml_go_net_330211000"
   >
     <!--
     This package only exists to define the below permissions, and enforce that they are only
